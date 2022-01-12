@@ -1,3 +1,26 @@
 <!DOCTYPE html>
 
+<html>
+  <head> </head>
+
+  <body>
+
+      <button
+        style="height: 200px; width: 200px; border-radius: 5px;"
+        type="button"
+        onclick="transmit()"
+      >
+        Click Here
+      </button>
+
+      <p id="caption">
+          Not Transmitted
+      </p>
+
+      <script>
+          function transmit(){
+              document.getElementById("caption").innerHTML = "Transmitted";
+          }
+      </script>
+  </body>
 </html>
